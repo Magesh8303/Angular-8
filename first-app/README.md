@@ -15,8 +15,8 @@ For example:
 
 @Component({
   selector: 'app-myfirst',
-  templateUrl: './myfirst.component.html',
-  styleUrls: ['./myfirst.component.css']
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 
 "app-myfirst" name added in index.html file instead of "app-root".
