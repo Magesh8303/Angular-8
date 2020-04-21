@@ -2,6 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
+In this application customized root app added in app.compoent.html.
+
+When we try to creating new application in angular,It must included an top root component in every application.
+Once Application initilization compeleted.There is lot file in folder and there is one html file called index.html.
+In this index.html is a top of root html file.I want customize the root html file then,we have 2 options.
+
+1.We can modified the app.component.html file.
+2.We can modified the @selector in app.component.html file and add newly added compoent name in this.
+
+For example:
+
+@Component({
+  selector: 'app-myfirst',
+  templateUrl: './myfirst.component.html',
+  styleUrls: ['./myfirst.component.css']
+})
+
+"app-myfirst" name added in index.html file instead of "app-root".
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
