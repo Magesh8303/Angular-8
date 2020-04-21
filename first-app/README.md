@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
-##In this application give an detail view how to add new app-root in index.html.
+## In this application give an detail view how to add new app-root in index.html.
 
 When we try to creating new application in angular,It must included an root component in every application.
 Once Application initilization compeletion,There is lot file in application folder and there is one html file called index.html.
